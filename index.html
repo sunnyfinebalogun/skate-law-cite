@@ -7,6 +7,9 @@
   <meta name="keywords" content="Skateboarding law, youth legal rights, stop and search UK, skate legal education, street law, know your rights UK">
   <title>Skate Law | Know Your Grind</title>
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #111; color: #eee; }
     header, footer { background: #000; color: #fff; text-align: center; padding: 1em; }
     nav a { color: #fff; margin: 0 1em; text-decoration: none; }
@@ -19,6 +22,9 @@
     .shop-preview img { width: 100%; max-width: 300px; border-radius: 8px; }
     .cta { text-align: center; padding: 3em 1em; background: #1a1a1a; }
     footer p { font-size: 0.9em; }
+    form input, form button { padding: 0.8em; border: none; border-radius: 5px; margin-top: 0.5em; }
+    form input { width: 70%; max-width: 300px; }
+    form button { background: #f33; color: #fff; cursor: pointer; }
   </style>
 </head>
 <body>
@@ -62,24 +68,36 @@
       <p>🔥 First Drop. 7 Days Only. All profits fund workshops at UK skateparks. Once it's gone, it's gone.</p>
     </div>
     <div class="cta-buttons">
-      <a href="#">Shop Now</a>
+      <a href="https://yourshoplink.com" target="_blank">Shop Now</a>
     </div>
   </section>
-<section id="workshops">
-  <h2>Workshops</h2>
-  <p>We host pop-up legal workshops at skateparks, youth centres, and community spaces. Want us to roll through your local spot? Hit us up.</p>
-</section>
 
-<section id="zines">
-  <h2>Zines</h2>
-  <p>Our printed zines break down your legal rights in skate-friendly language. Grab a copy online or at any Skate Law event.</p>
-</section>
+  <section id="guide">
+    <h2>Get the Guide</h2>
+    <p>Download your free digital guide: "Know Your Rights – For Skaters". Everything you need to handle stop-and-searches, fines, and public space laws.</p>
+    <div class="cta-buttons">
+      <a href="https://yourguidelink.com" target="_blank">Download PDF</a>
+    </div>
+  </section>
+
+  <section id="workshops">
+    <h2>Workshops</h2>
+    <p>We host pop-up legal workshops at skateparks, youth centres, and community spaces. Want us to roll through your local spot? Hit us up.</p>
+  </section>
+
+  <section id="zines">
+    <h2>Zines</h2>
+    <p>Our printed zines break down your legal rights in skate-friendly language. Grab a copy online or at any Skate Law event.</p>
+  </section>
+
   <section id="join">
     <h2>Join the Crew</h2>
     <p>Sign up to get free guides, workshop invites, and early access to drops. No spam. Just power.</p>
-    <div class="cta-buttons">
-      <a href="#">Sign Me Up</a>
-    </div>
+    <form name="newsletter" method="POST" data-netlify="true">
+      <input type="email" name="email" placeholder="Your email address" required />
+      <br />
+      <button type="submit">Sign Me Up</button>
+    </form>
   </section>
 
   <footer>
