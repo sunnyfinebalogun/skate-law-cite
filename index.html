@@ -3,116 +3,68 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Know your rights. Skate free. Skate Law teaches skaters their legal rights through workshops, zines, and merch." />
-  <meta name="keywords" content="Skateboarding law, youth legal rights, stop and search UK, skate legal education, street law, know your rights UK">
   <title>Skate Law | Know Your Grind</title>
+  <meta name="description" content="Street-smart legal education for skaters, by skaters. Know your rights, skate free." />
+  <meta name="keywords" content="Skateboarding, law, youth justice, know your rights, legal education, skate rights">
   <style>
-    html {
-      scroll-behavior: smooth;
-    }
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #111; color: #eee; }
-    header, footer { background: #000; color: #fff; text-align: center; padding: 1em; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: #111; color: #eee; font-family: Arial, sans-serif; }
+    header, footer { background: #000; text-align: center; padding: 1em; }
     nav a { color: #fff; margin: 0 1em; text-decoration: none; }
     .hero { text-align: center; padding: 4em 1em; background: #1a1a1a; }
     .hero h1 { font-size: 2.5em; margin-bottom: 0.5em; }
-    .hero p { font-size: 1.2em; margin-bottom: 1em; }
-    .cta-buttons a { background: #f33; color: #fff; padding: 0.8em 1.5em; margin: 0.5em; border-radius: 5px; text-decoration: none; display: inline-block; }
-    section { padding: 2em 1.5em; max-width: 900px; margin: auto; }
+    .hero p { font-size: 1.2em; margin-bottom: 1.5em; }
+    .cta-buttons a { background: #f33; color: white; padding: 0.8em 1.5em; border-radius: 5px; text-decoration: none; margin: 0.5em; display: inline-block; }
+    section { max-width: 900px; margin: auto; padding: 2em 1.5em; }
     h2 { color: #f33; }
-    .shop-preview img { width: 100%; max-width: 300px; border-radius: 8px; }
-    .cta { text-align: center; padding: 3em 1em; background: #1a1a1a; }
-    footer p { font-size: 0.9em; }
-    form input, form button { padding: 0.8em; border: none; border-radius: 5px; margin-top: 0.5em; }
+    .shop-preview img { max-width: 300px; width: 100%; border-radius: 8px; }
+    form input, form button { padding: 0.8em; border-radius: 5px; border: none; margin-top: 0.5em; }
     form input { width: 70%; max-width: 300px; }
-    form button { background: #f33; color: #fff; cursor: pointer; }
-    .media { display: flex; justify-content: center; flex-wrap: wrap; gap: 1em; padding-top: 1em; }
-    iframe { border: none; border-radius: 8px; }
+    form button { background: #f33; color: white; cursor: pointer; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Skate Law</h1>
-    <nav>
-      <a href="#shop">Shop</a>
-      <a href="#workshops">Workshops</a>
-      <a href="#zines">Zines</a>
-      <a href="#join">Join Us</a>
-    </nav>
-  </header>
 
-  <section class="hero">
-    <h1>Know Your Rights. Skate Free.</h1>
-    <p>Street-smart legal education for skaters, by skaters.</p>
-    <div class="cta-buttons">
-      <a href="#shop">Shop Drop</a>
-      <a href="guide.html">Get the Guide</a>
-      ">Get the Guide</a>
-    </div>
-  </section>
+<header>
+  <h1>Skate Law</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="guide.html">Guide</a>
+    <a href="shop.html">Shop</a>
+  </nav>
+</header>
 
-  <section id="what">
-    <h2>What We Do</h2>
-    <ul>
-      <li>Teach skaters their rights at skateparks and online</li>
-      <li>Drop zines, guides & TikToks that actually speak your language</li>
-      <li>Make the law part of the culture — not the enemy</li>
-    </ul>
-  </section>
+<section class="hero">
+  <h1>Know Your Rights. Skate Free.</h1>
+  <p>Street-smart legal education for skaters, by skaters.</p>
+  <div class="cta-buttons">
+    <a href="guide.html">Get the Guide</a>
+    <a href="shop.html">Shop Drop</a>
+  </div>
+</section>
 
-  <section id="why">
-    <h2>Why It Matters</h2>
-    <p>Too many skaters get stopped, searched, or fined without knowing what to do. Skate Law breaks down your rights in ways that actually make sense. Legal knowledge = freedom, power, and survival in the city.</p>
-  </section>
+<section id="what">
+  <h2>What We Do</h2>
+  <ul>
+    <li>Teach skaters their rights at skateparks and online</li>
+    <li>Drop zines, guides & TikToks that actually speak your language</li>
+    <li>Make the law part of the culture — not the enemy</li>
+  </ul>
+</section>
 
-  <section id="shop">
-    <h2>Cop the Mission</h2>
-    <div class="shop-preview">
-      <img src="https://via.placeholder.com/300x300?text=KNOW+YOUR+GRIND+TEE" alt="Know Your Grind Tee" />
-      <p>🔥 First Drop. 7 Days Only. All profits fund workshops at UK skateparks. Once it's gone, it's gone.</p>
-    </div>
-    <div class="cta-buttons">
-      <a href="https://skatelaw.bigcartel.com" target="_blank">Shop Now</a>
-    </div>
-  </section>
+<section id="join">
+  <h2>Join the Crew</h2>
+  <p>Sign up to get free guides, workshop invites, and early access to drops.</p>
+  <form name="newsletter" method="POST" data-netlify="true">
+    <input type="email" name="email" placeholder="Your email address" required />
+    <br>
+    <button type="submit">Sign Me Up</button>
+  </form>
+</section>
 
-  <section id="guide">
-    <h2>Get the Guide</h2>
-    <p>Download your free digital guide: "Know Your Rights – For Skaters". Everything you need to handle stop-and-searches, fines, and public space laws.</p>
-    <div class="cta-buttons">
-      <a href="https://drive.google.com/file/d/your-guide-id/view" target="_blank">Download PDF</a>
-    </div>
-  </section>
+<footer>
+  <p>&copy; 2025 Skate Law. Built for the streets.</p>
+</footer>
 
-  <section id="workshops">
-    <h2>Workshops</h2>
-    <p>We host pop-up legal workshops at skateparks, youth centres, and community spaces. Want us to roll through your local spot? Hit us up.</p>
-  </section>
-
-  <section id="zines">
-    <h2>Zines</h2>
-    <p>Our printed zines break down your legal rights in skate-friendly language. Grab a copy online or at any Skate Law event.</p>
-  </section>
-
-  <section id="media">
-    <h2>Watch</h2>
-    <div class="media">
-      <iframe src="https://www.instagram.com/p/CODE/embed" width="320" height="440"></iframe>
-      <iframe src="https://www.instagram.com/p/CODE2/embed" width="320" height="440"></iframe>
-    </div>
-  </section>
-
-  <section id="join">
-    <h2>Join the Crew</h2>
-    <p>Sign up to get free guides, workshop invites, and early access to drops. No spam. Just power.</p>
-    <form name="newsletter" method="POST" data-netlify="true">
-      <input type="email" name="email" placeholder="Your email address" required />
-      <br />
-      <button type="submit">Sign Me Up</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Skate Law. Built for the streets.</p>
-  </footer>
 </body>
 </html>
