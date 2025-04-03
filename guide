@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get the Guide | Skate Law</title>
+  <style>
+    body { background: #111; color: #eee; font-family: Arial, sans-serif; padding: 2em; line-height: 1.6; }
+    a { color: #f33; text-decoration: none; }
+    h1, h2 { color: #f33; }
+    .container { max-width: 800px; margin: auto; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Know Your Rights – The Skater's Guide</h1>
+    <p>This guide was created by <strong>Sunny</strong>, a skater turned law student, who’s been through the grind and knows how it feels to get hassled by security, searched by police, or fined for just trying to skate.</p>
+    <h2>About Sunny</h2>
+    <p>Sunny grew up skating South London spots and learned law not in a lecture hall, but on the streets. Now studying to become a barrister, he's on a mission to make legal education actually useful — and actually cool.</p>
+    <p>This guide is a free resource to give power back to skaters. Whether you’re out filming clips or just cruising the block, this is for you.</p>
+    <h2>The Code of Lawyer Skaters</h2>
+    <ul>
+      <li><strong>Respect the session</strong> — but know your legal rights if it's shut down</li>
+      <li><strong>Know the law</strong> — so you can protect your friends and your freedom</li>
+      <li><strong>Use your platform</strong> — teach others and pass it on</li>
+      <li><strong>Build, don’t just destroy</strong> — the system’s broken, but we’re not helpless</li>
+    </ul>
+    <p><a href="index.html">← Back to home</a></p>
+  </div>
+</body>
+</html>
